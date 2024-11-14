@@ -1,0 +1,51 @@
+/* Memusatkan kartu di halaman */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+}
+
+/* Gaya untuk kartu */
+.card {
+  width: 320px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffe6e6;
+  text-align: center;
+  color: #333;
+}
+
+/* Gaya judul */
+.card h1 {
+  font-size: 2em;
+  color: #ff6666;
+  margin: 0;
+}
+
+/* Gaya pesan */
+.card p {
+  font-size: 1.1em;
+  color: #666;
+  margin: 15px 0 20px;
+}
+
+/* Gaya tombol */
+.card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff6666;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #ff4d4d;
+}
